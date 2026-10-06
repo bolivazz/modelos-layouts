@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout 1</title>
+    <link rel="stylesheet" href="grids.css">
+    <style>
+        .topo{border: 1px solid black;
+                margin-bottom: 10px;
+                height:80px ;}
+        .menu{border: 1px solid black;
+                margin-bottom: 10px;
+                height: 30px;}
+        .coluna-A{border: 1px solid black;
+                margin-bottom: 10px;
+                height: 400px;}
+        .coluna-B{border: 1px solid black;
+                margin-bottom: 10px;
+                height: 400px;}
+        .rodape{border: 1px solid black;
+                margin-bottom: 10px;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 topo">
+                <a href="index.html">voltar</a>
+                 topo
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 menu">menu</div>
+        </div>
+
+        <div class="row gap-2">
+            <div class="col-6 coluna-A">coluna-A</div>
+            <div class="col-6 coluna-B">coluna-B</div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 rodape">rodape</div>
+        </div>
+    </div>
+</body>
+</html>
